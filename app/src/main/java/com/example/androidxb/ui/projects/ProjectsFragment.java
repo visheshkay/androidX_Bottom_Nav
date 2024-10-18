@@ -35,37 +35,37 @@ public class ProjectsFragment extends Fragment {
 
         List<ProjectModel> projects = new ArrayList<ProjectModel>();
         projects.add(new ProjectModel(
-                R.drawable.insta,
+                R.drawable.github11,
                 "Project 1",
                 "Description for project 1",
                 "https://project1.example.com"
         ));
         projects.add(new ProjectModel(
-                R.drawable.insta,
+                R.drawable.project_2,
                 "Project 2",
                 "Description for project 2",
                 "https://project2.example.com"
         ));
         projects.add(new ProjectModel(
-                R.drawable.insta,
+                R.drawable.project_3,
                 "Project 3",
                 "Description for project 3",
                 "https://project3.example.com"
         ));
         projects.add(new ProjectModel(
-                R.drawable.insta,
+                R.drawable.project_4,
                 "Project 4",
                 "Description for project 4",
                 "https://project4.example.com"
         ));
         projects.add(new ProjectModel(
-                R.drawable.insta,
+                R.drawable.project_5,
                 "Project 5",
                 "Description for project 5",
                 "https://project5.example.com"
         ));
         projects.add(new ProjectModel(
-                R.drawable.insta,
+                R.drawable.project_6,
                 "Project 6",
                 "Description for project 6",
                 "https://project6.example.com"

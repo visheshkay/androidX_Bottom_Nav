@@ -9,12 +9,14 @@
 
     <ImageView
         android:id="@+id/image_project_card"
-        android:layout_width="128dp"
-        android:layout_height="128dp"
+        android:layout_width="76dp"
+        android:layout_height="79dp"
         android:layout_margin="5dp"
+        android:layout_marginStart="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/title_project_card"
