@@ -19,4 +19,24 @@
     <string name="john_skills_ml">
         &#8226; Machine Learning: Knowledgeable in implementing machine learning models for data analysis and entity extraction.
     </string>
+    <string name="john_certificates_1">
+       &#8226; Certification in MERN stack development course.
+
+    </string>
+    <string name="john_certificates_2">
+        &#8226; Certification in Machine Learning course by Andrew NG
+    </string>
+    <string name="john_certificates_3">
+        &#8226; Certification in Android App development course
+    </string>
+    <string name="john_achievements_1">
+       &#8226; This is the achievement-1
+
+    </string>
+    <string name="john_achievements_2">
+        &#8226; This is the achievement-2
+    </string>
+    <string name="john_achievements_3">
+        &#8226; This is the achievement-3
+    </string>
 </resources>

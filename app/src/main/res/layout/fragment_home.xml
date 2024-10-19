@@ -18,8 +18,8 @@
             android:id="@+id/frameLayout2"
             android:layout_width="405dp"
             android:layout_height="220dp"
-            android:background="@color/purple_200"
-            android:backgroundTint="@color/purple_200"
+            android:background="#C8C8C8"
+            android:backgroundTint="#C8C8C8"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -46,9 +46,9 @@
             android:layout_width="410dp"
             android:layout_height="48dp"
             android:layout_marginTop="4dp"
-            android:background="#B2D2DC"
+            android:background="#E1E9FC"
             android:fontFamily="sans-serif-black"
-            android:text="John Doe"
+            android:text="Richard Sanchez"
             android:textAlignment="center"
             android:textSize="35sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -118,6 +118,104 @@
             app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/johnSkillsAnd" />
+
+        <TextView
+            android:id="@+id/certificationsView"
+            android:layout_width="410dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:background="#E1E9FC"
+            android:fontFamily="sans-serif-black"
+            android:text="My Certifcates"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/johnSkillsMl" />
+
+        <TextView
+            android:id="@+id/johnCertificate1"
+            android:layout_width="320dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/john_skills_web"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/certificationsView" />
+
+        <TextView
+            android:id="@+id/johnCertificate2"
+            android:layout_width="320dp"
+            android:layout_height="57dp"
+            android:text="@string/john_skills_and"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/johnCertificate1" />
+
+        <TextView
+            android:id="@+id/johnCertificate3"
+            android:layout_width="320dp"
+            android:layout_height="57dp"
+            android:text="@string/john_skills_ml"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/johnCertificate2" />
+
+        <TextView
+            android:id="@+id/achievementsView"
+            android:layout_width="410dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:background="#E1E9FC"
+            android:fontFamily="sans-serif-black"
+            android:text="My Achievements"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/johnCertificate3" />
+
+        <TextView
+            android:id="@+id/johnAchievements1"
+            android:layout_width="320dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/john_skills_web"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/achievementsView" />
+
+        <TextView
+            android:id="@+id/johnAchievements2"
+            android:layout_width="320dp"
+            android:layout_height="57dp"
+            android:text="@string/john_skills_and"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/johnAchievements1" />
+
+        <TextView
+            android:id="@+id/johnAchievements3"
+            android:layout_width="320dp"
+            android:layout_height="57dp"
+            android:text="@string/john_skills_ml"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/johnAchievements2" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
