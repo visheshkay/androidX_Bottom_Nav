@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
         fb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri link_web= Uri.parse("https://www.instagram.com/iste_vnrvjiet/");
-                Intent ist=new Intent(Intent.ACTION_VIEW,link_web);
+//                Uri link_web= Uri.parse("https://www.instagram.com/iste_vnrvjiet/");
+                Intent ist=new Intent(MainActivity.this,ResumeActivity.class);
                 startActivity(ist);
             }
         });
